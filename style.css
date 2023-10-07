@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 5px 5px 5px gray;
+}
+
+nav a {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    margin: 5px;
+}
+
+header {
+    background-color: black;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+p {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+header a:hover {
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.link-text {
+    text-decoration: none;
+    color: red;
+}
+
+footer a:hover {
+    border-bottom: 5px solid white;
+}
+
+.link-text:hover {
+    border-bottom: 5px double blue;
+    transition: all 0.1s linear;
+}
+
+footer a {
+    margin-left: 1px;
+}
+
+ol {
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
